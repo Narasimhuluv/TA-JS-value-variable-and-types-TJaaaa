@@ -10,24 +10,30 @@ alert(firstName)
 // Alert the value of the lastName.
 alert(lastName)
 // Assign a new value of `"John"` to firstName.
-let firstname = "John"
+firstName = "John";
 // Assign a new value of `"Snow"` to lastName.
-let lastname = "Snow"
+lastName = "Snow";
 // Alert the new value of `firstName` and `lastName` by concatenating them
-alert(firstname)
+alert(firstName + lastName)
 // Create a new varaible using `const` named `fullName` and assign the fullname using firstName and lastName seperated by space.
-const fullName = firstname +" "+ lastname
+// const fullName = firstName +" "+ lastName 
+const fullName = `${firstName + lastName}`;
 console.log(fullName)
 
 // Declare three variables `name,` `newUser` and `isAdmin`.
+let name , newUser , isAdmin;
 // Assign your name as the value of `name`.
+name = "Narasimhulu";
 // Assign the value of `name` to `newUser`.
+newUser = name
 // Set the value of `isAdmin` to `true`.
+isAdmin = true
 // Alert the values of all the three variables.
-let name = "Narasimhulu"
-let newUser = "newUser"
-let isAdmin = "true"
-alert(name+ newUser+isAdmin)
+alert(name)
+alert(newUser)
+alert(isAdmin)
+ 
+ 
 
 
 
@@ -40,7 +46,7 @@ console.log(wiseMan)
 // Follow instructions and do the following. In case of an error write the error in comment
 
 // Reassign the value of `wiseMan` to "Samwell Tarly"
-let wiseMan = "Samwell Tarly"  // Uncaught SyntaxError: Identifier 'wiseMan' has already been declared
+ wiseMan = "Samwell Tarly"  // Uncaught SyntaxError: Identifier 'wiseMan' has already been declared
 // Declare a variable `userName` with value "Lysa Arryn"
 
 let anotherUserName = "Lysa Arryn"
@@ -49,7 +55,7 @@ console.log(anotherUserName)
 let oddNumber = 57
 console.log(oddNumber)
 // Reassign the value of `oddNumber` to 61
-let oddNumber = 61 // Uncaught SyntaxError: Identifier 'oddNumber' has already been declared
+ oddNumber = 61 // Uncaught SyntaxError: Identifier 'oddNumber' has already been declared
 console.log(oddNumber) 
 // Mathematical Operation
 
