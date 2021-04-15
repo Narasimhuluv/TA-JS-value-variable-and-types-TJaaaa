@@ -39,7 +39,7 @@ let Username = prompt("What is your Name")
 let userProfession = prompt("what is your profession")
 alert(`I am ${Username} a ${userProfession}`)
 console.log(`I am ${Username} a ${userProfession}`)
-let adult = "is adult"
+let isAdult = confirm("Are you an adult?")
 confirm(adult)
 
 console.log(`username: ${Username} \n is adult : ${adult} \n profession : ${userProfession}`)
@@ -55,9 +55,8 @@ console.log(`username: ${Username} \n is adult : ${adult} \n profession : ${user
   - Log using console.log [numA - numB]
   - Log using console.log [numA * numB]
 */
-
-let numA = 35;
-let numB = 40;
+let numA = Number(prompt("Enter first Number!"))
+let numB = Number(prompt("Enter second Number"))
 alert(numA + numB)
 alert (numA - numB)
 alert(numA * numB)
