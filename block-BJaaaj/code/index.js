@@ -46,7 +46,7 @@ console.log(wiseMan)
 // Follow instructions and do the following. In case of an error write the error in comment
 
 // Reassign the value of `wiseMan` to "Samwell Tarly"
- wiseMan = "Samwell Tarly"  // Uncaught SyntaxError: Identifier 'wiseMan' has already been declared
+ wiseMan = "Samwell Tarly";
 // Declare a variable `userName` with value "Lysa Arryn"
 
 let anotherUserName = "Lysa Arryn"
@@ -55,7 +55,7 @@ console.log(anotherUserName)
 let oddNumber = 57
 console.log(oddNumber)
 // Reassign the value of `oddNumber` to 61
- oddNumber = 61 // Uncaught SyntaxError: Identifier 'oddNumber' has already been declared
+ oddNumber = 61;
 console.log(oddNumber) 
 // Mathematical Operation
 
