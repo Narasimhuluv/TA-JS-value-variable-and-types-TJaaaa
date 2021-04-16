@@ -13,10 +13,10 @@ let userName = user
 console.log(userName, user)
 
 let age = 23; 
-let profession = "isLearning"; 
+let isLearning = true; 
 
 user = "Jhon"
-console.log(user, userName)
+console.log(user,"user", userName, "userName")
 
 /* 2.
 Use `prompt` to take two numbers from user and store it in variable `numA` and `numB`. Create a third variable called `sum`, using `+` operator add numA and numB , store it in varible `sum` and using alert display `sum` in browser.
