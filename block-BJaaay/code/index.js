@@ -16,7 +16,7 @@ for(var i=1; i<=10; i++){
 
 // Using `console.log` log all the od values from 1 to 10.
 for(var i=1; i<=10; i++){
-    if(i%3==0){
+    if(i%2 !=0){
         console.log(i, "odd")
     }
 }
