@@ -103,9 +103,22 @@ switch(monthname){
 
 let salary = prompt("Enter your salary")
 switch(salary){
-  case salary <=2000:
+  case salary <=20000:
     let tax = (salary * 10)/100;
-    alert( )
+    alert(`you in-hand amount ${salery - tax}` )
+    break;
+
+    case salary <= 40000:
+      let tax2 = (salary * 20)/100;
+      alert(`you in-hand amount ${salery - tax2}` )
+      break;
+
+      case salary > 50000:
+        let tax3 = (salary * 30)/100;
+        alert(`you in-hand amount ${salery - tax3}` )
+        break
+    default:
+    (`not a valid input`)
 }
 //  if..else vs switch
 
@@ -141,3 +154,25 @@ if(marks > 100){
   - If`freezing` alert`Get your sweeter on`
   - Anything else should alert`Not a valid input`
 */
+let weather = prompt(`What is the weather like outside?`)
+switch(weather){
+  case "sunny":
+    alert(`Wear  a T-shirt`);
+    break;
+
+    case "rainy":
+    alert(`Don't forget to take your raincoat`);
+    break;
+
+    case "hot":
+      alert(`Get a hanky`);
+      break;
+
+      case "freezing":
+      alert(`get your sweeter on`);
+      break;
+      default:
+        alert(`not valid input`)
+
+    
+}
