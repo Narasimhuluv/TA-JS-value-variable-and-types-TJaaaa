@@ -205,7 +205,24 @@ if(excution > 0){
 
 // [Your code goes here]
 
-let A = +(prompt("Enter the add,sub,mult,division"))
-let B = +(prompt("Ente the add, sub, mul,div"))
-let C = +(prompt("Ente the add, sub, mul,div"))
-let D = +(prompt("Ente the add, sub, mul,div"))
+let firstNum = +prompt("Enter first value for operation")
+let secondNum = +prompt("Enter the second value for operation")
+let operation = prompt("Ente an operation out of (Add, sub, mul, div)")
+
+switch(operation){
+  case "Add":
+    alert(`The sum of ${firstNum} and ${secondNum} is ${firstNum + secondNum}`)
+    break;
+
+    case "Sub":
+      alert(`The sum of ${firstNum} and ${secondNum} is ${firstNum - secondNum}`)
+    break;
+
+    case "mul":
+      alert(`The sum of ${firstNum} and ${secondNum} is ${firstNum * secondNum}`)
+    break;
+
+    case "div":
+      alert(`The sum of ${firstNum} and ${secondNum} is ${firstNum / secondNum}`)
+    break;
+}
