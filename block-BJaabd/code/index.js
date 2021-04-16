@@ -11,14 +11,14 @@ Write a program that asks the user his/her age and check for the following condi
 👇
 */
 
-let age = 10;
+let age = +(prompt("What is your age"))
 if(age >= 12 && age <= 55){
   alert("you can participate in the marathon")
 }else if(age <= 4 && age <= 11){
   alert("You are to young to participate in the maratho.")
 }else if(age <= 4){
   alert("Hey kiddo! can you walk ?")
-}else if(age > 55){
+}else{
   alert("You are too old to participate in the marthon.")
 }
 // Loops
@@ -31,6 +31,15 @@ n = 7 => output: heeeeeeello
 👇
 */
 // [Your code goes here]
+let count = +prompt("Enter the number of e!")
+
+let start = "h"
+let end = "llo"
+let middle = "";
+for(let i=0; i<count; i++){
+   middle +="e"
+}
+alert(start+middle+end)
 
 
 
@@ -39,6 +48,13 @@ Program to calculate the sum of first n natural numbers(1,2,3...n are known as n
 👇
 */
 // [Your code goes here]
+let max = prompt("Enter the value of n")
+let sum = 0 
+for(let i=1 ; i<= max; i++){
+  sum += i
+}
+console.log(sum)
+alert(`The value of sum id ${sum}`)
 
 /* Switch Statement
 
