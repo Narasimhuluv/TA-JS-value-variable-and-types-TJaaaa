@@ -21,7 +21,7 @@ console.log(user,"user", userName, "userName")
 /* 2.
 Use `prompt` to take two numbers from user and store it in variable `numA` and `numB`. Create a third variable called `sum`, using `+` operator add numA and numB , store it in varible `sum` and using alert display `sum` in browser.
 */
-let prompt_input1 =Number( prompt("Enter the first Number"))
+let prompt_input1 =  Number( prompt("Enter the first Number"))
 let prompt_input2 = Number(prompt("Enter the second Number"))
 let sum = alert(prompt_input1 + prompt_input2)
  
@@ -29,7 +29,7 @@ let sum = alert(prompt_input1 + prompt_input2)
 
 // 3. Complete the following code to make the output be 0 2 4 6 8 10?
 
-for (let j = 0; j <= 10; j++){
+for (let j = 0; j <= 10; j +=2n ){
     console.log(j);
 } 
 
@@ -77,4 +77,10 @@ Example:
 
 let num1 = Number(prompt("Enter the first value"))
 let num2 = Number(prompt("Enter the second value"))
-
+if(isNaN(num1) || isNaN(num2)){
+    alert("Enter a valid value")
+}else{
+    else{
+        num1 === num2
+    }
+}
