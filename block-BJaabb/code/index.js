@@ -6,26 +6,66 @@
 4. Now change the value of `user` to `John` and log the value of both `user` and `userName`.
 */
 
+// let user = prompt("Enter the value");
+// alert(user)
+
+// let userName = user
+// console.log(userName, user)
+
+// let age = 23; 
+// let profession = "isLearning"; 
+
+// user = "Jhon"
+// console.log(user, userName)
+
 /* 2.
 Use `prompt` to take two numbers from user and store it in variable `numA` and `numB`. Create a third variable called `sum`, using `+` operator add numA and numB , store it in varible `sum` and using alert display `sum` in browser.
 */
-
+// let prompt_input1 =Number( prompt("Enter the first Number"))
+// let prompt_input2 = Number(prompt("Enter the second Number"))
+// let sum = alert(prompt_input1 + prompt_input2)
+ 
 // Loops
 
 // 3. Complete the following code to make the output be 0 2 4 6 8 10?
 
-for (let j = 0; j <= 10; ____) console.log(j);
+// for (let j = 0; j <= 10; j++){
+//     console.log(j);
+// } 
 
 // 4. Print the odd numbers from 9 to 1 (both inclusive) using a for loop.
+    // for(i=10; i>1; i--){
+    //     if(i%2 !=0){
+    //         console.log(i, "odd")
+    //     }
+    // }
 
 // 5. Concat all the numbers from 5 to 0 (both inclusive) in descending order using a while loop. (543210)
+let num = 5;
+let string1 = num + "";
+while(num > 0){
+    num = num - 1;
+    string1 += num;
+}
+
+
+
 
 // 6. Concat all the even numbers from 10 to 0 (both inclusive) in descending order using a while loop. (1086420)
+
+let num = 10;
+let string_data = num + "";
+while(num > 0){
+    if(num % 2 == 0){
+        num = num -1;
+        string_data += num;
+    }
+}
+console.log(string_data);
 
 // Comparisoin
 
 /* 7. Take two value using prompt and store them in variables `num1` and `num2`. Check whether they are equal or not.
-
 - `alert` true or false base on the entered value.
 - if the input value is anything like `true`, `null` or `undefined` alert saying `Enter a valid value`.
 
@@ -36,3 +76,7 @@ Example:
 "hello", -21; // false
 
 */
+
+let num1 = Number(prompt("Enter the first value"))
+let num2 = Number(prompt("Enter the second value"))
+if(num)
